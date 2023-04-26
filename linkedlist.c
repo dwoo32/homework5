@@ -184,7 +184,7 @@ int insertLast(headNode* h, int key) {
 	}
 
 	listNode* n = h->first;//listNode의 포인터 n에 h의 first 값 할당
-	while(n->link != NULL) {//
+	while(n->link != NULL) {
 		n = n->link;
 	}
 	n->link = node;
